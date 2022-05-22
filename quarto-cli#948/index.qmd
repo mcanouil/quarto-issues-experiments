@@ -16,23 +16,23 @@ Quarto version `` `r system("quarto --version", intern = TRUE)` ``.
 
 1. Expliquer les relations entre `a`, `b`, `d` et `e`.
 
-    ```{r}
-    #| echo: true
-    #| eval: false
-    a <- 1:10
-    b <- a
-    b -> e
-    e <- d <- 1:10
-    ```
+   ```{r}
+   #| echo: true
+   #| eval: false
+   a <- 1:10
+   b <- a
+   b -> e
+   e <- d <- 1:10
+   ```
 
 2. Que donne le code suivant pour importer un "fichier" csv&nbsp;?
     Quel argument faudrait-il utiliser pour avoir les noms des colonnes tels-qu'ils sont&nbsp;?
 
-    ```{.r}
-    read.csv(
-      header = TRUE,
-      text = "1ere_colonne,deuxième_colonne,troisième colonne\n1,2,3"
-    )
-    ```
+   ```{.r}
+   read.csv(
+     header = TRUE,
+     text = "1ere_colonne,deuxième_colonne,troisième colonne\n1,2,3"
+   )
+   ```
 
 3. Les fonctions `read.*()` utilisent `make.names()`&nbsp;? Quels sont les règles de conversions utilisées&nbsp;?
