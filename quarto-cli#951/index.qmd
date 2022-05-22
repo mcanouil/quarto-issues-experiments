@@ -9,8 +9,9 @@ format:
 
 ## Figure
 
-{{< include content/fig1.qmd >}}
-
 ```{r}
+#| label: fig1
 plot(2)
 ```
+
+{{< include content/fig2.qmd >}}
