@@ -1,11 +1,13 @@
 ---
-title: 'Quarto Issues'
+title: 'quarto-dev/quarto-cli#948'
 author: Mickaël Canouil, *Ph.D.*
 format:
   revealjs:
     self-contained: true
+    output-file: index-revealjs.html
   html:
     self-contained: true
+    output-file: index-html.html
 ---
 
 ## Exercices {.smaller}
