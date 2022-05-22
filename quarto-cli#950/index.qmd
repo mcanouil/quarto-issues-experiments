@@ -12,7 +12,7 @@ format:
 
 Quarto version `` `r system("quarto --version", intern = TRUE)` ``.
 
-I am using `knitr`[@R-knitr, @knitr2014, @knitr2015] to write my bibliography as follow:
+I am using `knitr`[@R-knitr; @knitr2014; @knitr2015] to write my bibliography as follow:
 
 ```{.r}
 knitr::write_bib("knitr", "bibliography.bib")
