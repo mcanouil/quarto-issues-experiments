@@ -12,6 +12,8 @@ format:
 
 ## Exercices {.smaller}
 
+Quarto version `` `r system("quarto --version", intern = TRUE)` ``.
+
 1. Expliquer les relations entre `a`, `b`, `d` et `e`.
 
     ```{r}
