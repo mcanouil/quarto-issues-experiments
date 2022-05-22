@@ -4,7 +4,6 @@ author: Mickaël Canouil, *Ph.D.*
 format:
   html:
     self-contained: true
-    output-file: docs/index-html.html
 ---
 
 ## Figure
