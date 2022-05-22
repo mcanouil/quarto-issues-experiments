@@ -1,0 +1,42 @@
+---
+title: 'quarto-dev/quarto-cli#949'
+author: Mickaël Canouil, *Ph.D.*
+format:
+  revealjs:
+    self-contained: true
+    output-file: index-revealjs.html
+  html:
+    self-contained: true
+    output-file: index-html.html
+---
+
+## Figures from code cell
+
+Quarto version `` `r system("quarto --version", intern = TRUE)` ``.
+
+::: {layout-ncol=2}
+
+```{r}
+#| fig-cap: plot(1)
+#| fig.width: 3
+plot(1)
+```
+
+```{r}
+#| fig.width: 3
+plot(2)
+```
+
+:::
+
+## Figures from markdown
+
+Quarto version `` `r system("quarto --version", intern = TRUE)` ``.
+
+::: {layout-ncol=2}
+
+![An online picture](https://github.com/quarto-dev.png){width=50%}
+
+![](https://github.com/quarto-dev.png){width=50%}
+
+:::
