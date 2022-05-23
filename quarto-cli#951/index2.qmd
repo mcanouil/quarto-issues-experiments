@@ -5,7 +5,7 @@ format:
   revealjs:
     self-contained: true
     background-image: background.jpeg
-    output-file: docs/index2.html
+    output-file: docs/index.html
 ---
 
 ## Figure
