@@ -1,0 +1,9 @@
+---
+title: 'quarto-dev/quarto-cli#980'
+author: Mickaël Canouil, *Ph.D.*
+format:
+  revealjs:
+    self-contained: true
+    background-image: background.jpg
+    output-file: docs/index.html
+---
