@@ -1,0 +1,46 @@
+---
+title: "A Quarto Page Layout Example"
+format:
+  html: 
+    self-contained: true
+cap-location: top
+---
+
+# Tables
+
+```{r}
+knitr::kable(
+  x = mtcars[1:6, 1:6],
+  caption = 'A subset of mtcars.'
+)
+```
+
+```{r}
+#| tbl-cap: "A subset of iris."
+knitr::kable(head(iris[,c(1,2,3,4)], 15))
+```
+
+
++---------------+---------------+--------------------+
+| Fruit         | Price         | Advantages         |
++===============+===============+====================+
+| Bananas       | $1.34         | - built-in wrapper |
+|               |               | - bright color     |
++---------------+---------------+--------------------+
+| Oranges       | $2.10         | - cures scurvy     |
+|               |               | - tasty            |
++---------------+---------------+--------------------+
+
+: Sample grid table.
+
+# Figures
+
+```{r}
+#| fig.cap: "Plot 1 to 5"
+plot(1:5, 1:5)
+```
+
+```{r}
+#| fig-cap: "Density plot"
+plot(density(rnorm(100)))
+```
