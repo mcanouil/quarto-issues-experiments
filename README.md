@@ -7,6 +7,6 @@
 - [x] ~~[quarto-cli#949](quarto-cli-949)~~  
   ~~quarto-dev/quarto-cli#949~~ -> Docs updated.
 - [x] ~~[quarto-cli#950](quarto-cli-950)~~  
-  ~~quarto-dev/quarto-cli#950~~ -> fixed.
+  ~~quarto-dev/quarto-cli#950~~ -> Fixed.
 - [x] ~~[quarto-cli#951](quarto-cli-951)~~  
   ~~quarto-dev/quarto-cli#951~~ -> "smart URLs disable"
