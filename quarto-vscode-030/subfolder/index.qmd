@@ -1,8 +1,0 @@
----
-title: "Untitled"
-format:
-  html:
-    self-contained: true
----
-
-A test document.
