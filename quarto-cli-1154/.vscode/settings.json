@@ -1,2 +1,96 @@
 {
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.minimap.enabled": false,
+  "editor.wordWrapColumn": 120,
+  "editor.rulers": [
+      80,
+      {
+          "column": 120,
+          "color": "#b22222"
+      }
+  ],
+  "files.hotExit": "onExitAndWindowClose",
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "files.watcherExclude": {
+      "**.Rproj": true,
+      "**/.cache/**": true,
+      "**/.local/**": true,
+      "**/.Rproj.user/**": true,
+      "**/.vscode/**": true
+  },
+  "files.exclude": {
+      "**.Rproj": true,
+      "**/.Rproj.user": true
+  },
+  "files.eol": "\n",
+  "workbench.startupEditor": "none",
+  "workbench.layoutControl.enabled": true,
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
+  "workbench.preferredHighContrastColorTheme": "GitHub Dark High Contrast",
+  "window.restoreWindows": "preserve",
+  "window.newWindowDimensions": "maximized",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableCommitSigning": true,
+  "git.closeDiffOnOperation": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "liveshare.alwaysFollowHost": true,
+  "r.alwaysUseActiveTerminal": true,
+  "r.helpPanel.enableHoverLinks": false,
+  "r.rterm.option": [
+      "--no-save",
+      "--no-restore-data",
+      "--quiet"
+  ],
+  "r.lsp.lang": "en_GB.UTF-8",
+  "r.rmarkdown.knit.defaults.knitWorkingDirectory": "workspace root",
+  "r.plot.useHttpgd": true,
+  "r.plot.defaults.fullWindowMode": true,
+  "r.session.viewers.viewColumn": {
+      "plot": "Beside",
+      "browser": "Beside",
+      "viewer": "Two",
+      "pageViewer": "Two",
+      "view": "Two",
+      "helpPanel": "Two"
+  },
+  "[r]": {
+      "editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\|;:'\",<>/?",
+      "editor.formatOnSave": false
+  },
+  "[rmd]": {
+      "editor.formatOnSave": false
+  },
+  "path-autocomplete.triggerOutsideStrings": true,
+  "path-autocomplete.pathMappings": {
+      "/": "/",
+      "./": "${folder}"
+  },
+  "gitlens.defaultDateFormat": "Do of MMMM, YYYY",
+  "gitlens.defaultDateShortFormat": "YYYY-MM-D",
+  "gitlens.defaultTimeFormat": "HH:mm",
+  "githubPullRequests.fileListLayout": "tree",
+  "quarto.mathjax.theme": "dark",
+  "svg.preview.mode": "svg",
+  "conventionalCommits.gitmoji": false,
+  "conventionalCommits.promptBody": false,
+  "conventionalCommits.promptScopes": false,
+  "github.copilot.inlineSuggest.enable": false,
+  "github.copilot.enable": {
+      "*": true,
+      "r": true,
+      "python": true
+  },
 }
