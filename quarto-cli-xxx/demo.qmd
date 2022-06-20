@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+format: html
+bibliography: biblio.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl
+---
+
+- This is a ref to article and figure [@canouil_nacho_2019; @fig-plot].
+- This is a ref to article and figure @canouil_nacho_2019, @fig-plot.
+
+- This is a ref alone [@canouil_nacho_2019].
+- This is a ref alone @canouil_nacho_2019.
+
+```{r}
+#| label: fig-plot
+#| fig-cap: "Caption"
+plot(1)
+```
