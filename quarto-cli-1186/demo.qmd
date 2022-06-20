@@ -1,6 +1,8 @@
 ---
 title: "Untitled"
-format: html
+format: 
+  html:
+    self-contained: true
 bibliography: biblio.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl
 ---
