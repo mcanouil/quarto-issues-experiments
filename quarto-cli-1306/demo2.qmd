@@ -1,0 +1,14 @@
+---
+title: "Untitled"
+lang: fr
+author:
+  - name: "Mickaël"
+    affiliation: "Institut Pasteur de Lille"
+author-title: "Test"
+language: 
+  title-block-affiliation-single: "Affiliation"
+  title-block-affiliation-plural: "Affiliations"
+format:
+  html:
+    self-contained: true
+---

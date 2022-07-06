@@ -6,6 +6,8 @@
   quarto-dev/quarto-cli#1154
 - [ ] [quarto-cli#1186](quarto-cli-1186)  
   quarto-dev/quarto-cli#1186
+- [ ] [quarto-cli#13O6](quarto-cli-13O6)  
+  quarto-dev/quarto-cli#13O6
 
 ## Resolved
 
