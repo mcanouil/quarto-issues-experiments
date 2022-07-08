@@ -4,8 +4,6 @@
 
 - [ ] [quarto-cli#1186](quarto-cli-1186)  
   quarto-dev/quarto-cli#1186
-- [ ] [quarto-cli#1306](quarto-cli-1306)  
-  quarto-dev/quarto-cli#1306
 
 ## Resolved
 
@@ -21,3 +19,5 @@
   ~~quarto-dev/quarto-cli#951~~ -> "smart URLs disable"
 - [x] ~~[quarto-cli#1154](quarto-cli-1154)~~  
   ~~quarto-dev/quarto-cli#1154~~
+- [x] ~~[quarto-cli#1306](quarto-cli-1306)~~  
+  ~~quarto-dev/quarto-cli#1306~~
