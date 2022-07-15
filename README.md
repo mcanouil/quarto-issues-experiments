@@ -4,8 +4,6 @@
 
 - [ ] [quarto-cli#1186](quarto-cli-1186)  
   quarto-dev/quarto-cli#1186
-- [ ] [quarto-cli#1406](quarto-cli-1406)  
-  quarto-dev/quarto-cli#1406
 
 ## Resolved
 
@@ -23,3 +21,5 @@
   ~~quarto-dev/quarto-cli#1154~~
 - [x] ~~[quarto-cli#1306](quarto-cli-1306)~~  
   ~~quarto-dev/quarto-cli#1306~~
+- [X] ~~[quarto-cli#1406](quarto-cli-1406)~~  
+  ~~quarto-dev/quarto-cli#1406~~
