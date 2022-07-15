@@ -1,0 +1,12 @@
+---
+title: "My title"
+author: "Mickaël Canouil"
+date: last-modified
+format: html
+self-contained: true
+---
+
+{{< meta title >}}
+{{< meta author >}}
+{{< meta author.name >}}
+{{< meta date >}}
