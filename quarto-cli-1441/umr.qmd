@@ -1,6 +1,5 @@
 ---
 title: "Sample Presentation"
-self-contained: true
 format: umr1283-revealjs
 ---
 
