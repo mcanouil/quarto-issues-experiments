@@ -1,12 +1,14 @@
 ---
 title: "My title"
-author: "Mickaël Canouil"
+author:
+  - name: Norah Jones
+    affiliation: Carnegie Mellon University
 date: last-modified
 format: html
 self-contained: true
 ---
 
-{{< meta title >}}
+<details><summary>My title</summary>
 {{< meta author >}}
-{{< meta author.name >}}
-{{< meta date >}}
+{{< meta author.affiliation >}}
+</details>
