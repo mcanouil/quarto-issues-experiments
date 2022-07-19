@@ -1,0 +1,18 @@
+# Demo with `knitr::read_chunk`
+
+Read an external script:
+
+```{r}
+#| include: false
+knitr::read_chunk("shared.R")
+```
+
+Now we can use the code, e.g.,
+
+```{r test-a}
+#| echo: false
+```
+
+```{r test-b}
+#| fig.height: 4
+```
