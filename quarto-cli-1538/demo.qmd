@@ -1,0 +1,18 @@
+---
+title: "A Title"
+subtitle: "A Subtitle"
+author: Mickaël Canouil, *Ph.D.*
+format:
+  demo-html: default
+  demo-pdf: default
+---
+
+# Introduction
+
+![](cover.jpg)
+
+<!-- ```{r}
+source("setup-ggplot2-coeos.R")
+```
+
+{{< include about.qmd >}} -->

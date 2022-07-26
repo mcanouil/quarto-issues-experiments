@@ -1,0 +1,15 @@
+title: Coeos Presentation Template
+author: Mickaël CANOUIL
+version: 1.0.0
+contributes:
+  formats:
+    html:
+      format-resources:
+        - setup-ggplot2-coeos.R
+        - about.qmd
+        - cover.jpg
+    pdf:
+      format-resources:
+        - setup-ggplot2-coeos.R
+        - about.qmd
+        - cover.jpg
