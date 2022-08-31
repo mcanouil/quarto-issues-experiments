@@ -10,9 +10,8 @@
   quarto-dev/quarto-cli#1441
 - [ ] [quarto-cli#1458](quarto-cli-1458)  
   quarto-dev/quarto-cli#1458
-- [ ] [quarto-cli#1538](quarto-cli-1538)  
-  quarto-dev/quarto-cli#1538
-
+- [ ] [quarto-cli#2228](quarto-cli-2228)  
+  quarto-dev/quarto-cli#2228
 
 ## Resolved
 
@@ -34,3 +33,5 @@
   ~~quarto-dev/quarto-cli#1406~~
 - [x] ~~[quarto-cli#1429](quarto-cli-1429)~~  
   ~~quarto-dev/quarto-cli#1429~~
+- [x] ~~[quarto-cli#1538](quarto-cli-1538)~~  
+  ~~quarto-dev/quarto-cli#1538~~
