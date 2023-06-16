@@ -4,7 +4,6 @@ format:
   html:
     self-contained: true
 bibliography: biblio.bib
-csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl
 ---
 
 - This is a ref to article and figure [@canouil_nacho_2019; @fig-plot].
