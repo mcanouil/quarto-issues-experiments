@@ -4,17 +4,17 @@
 
 - [ ] [quarto-cli#1186](quarto-cli-1186)  
   quarto-dev/quarto-cli#1186
-- [ ] [quarto-cli#1433](quarto-cli-1433)  
-  quarto-dev/quarto-cli#1433
-- [ ] [quarto-cli#1441](quarto-cli-1441)  
-  quarto-dev/quarto-cli#1441
-- [ ] [quarto-cli#1458](quarto-cli-1458)  
-  quarto-dev/quarto-cli#1458
-- [ ] [quarto-cli#2228](quarto-cli-2228)  
-  quarto-dev/quarto-cli#2228
 
 ## Resolved
 
+- [x] ~~[quarto-cli#1433](quarto-cli-1433)~~  
+  ~~quarto-dev/quarto-cli#1433~~
+- [x] ~~[quarto-cli#1441](quarto-cli-1441)~~  
+  ~~quarto-dev/quarto-cli#1441~~
+- [x] ~~[quarto-cli#1458](quarto-cli-1458)~~  
+  ~~quarto-dev/quarto-cli#1458~~
+- [x] ~~[quarto-cli#2228](quarto-cli-2228)~~  
+  ~~quarto-dev/quarto-cli#2228~~
 - [x] ~~[quarto-cli#938](quarto-cli-938)~~  
   ~~quarto-dev/quarto-cli#938~~ -> Fixed.
 - [x] ~~[quarto-cli#948](quarto-cli-948)~~  
