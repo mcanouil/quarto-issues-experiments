@@ -15,6 +15,8 @@ import pyLDAvis.gensim
 from pyLDAvis.gensim import prepare
 import pandas as pd
 
+import IPython
+
 tweets = pd.read_csv('dp-export-71814f89-1445-47bf-aec6-3ad11bbeee59.csv')
 tweets = tweets.Tweets.values.tolist()
 tweets = [t.split(',') for t in tweets]
@@ -32,6 +34,13 @@ lda_model = LdaModel(
     per_word_topics=True
 )
 
-p = prepare(lda_model, corpus, id2word)
-display(p)
+lda_model_data = prepare(lda_model, corpus, id2word)
+
+# The following works
+# lda_model_html = display(lda_model_data)
+# IPython.display.HTML(lda_model_html.data)
+
+# The following does also work
+pyLDAvis.save_html(lda_model_data, 'lda_visualization.html')
+IPython.display.HTML('lda_visualization.html')
 ```
