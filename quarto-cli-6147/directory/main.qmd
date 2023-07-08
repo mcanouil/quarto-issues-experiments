@@ -1,0 +1,8 @@
+---
+title: "Quarto Issue 6147"
+format: html
+---
+
+{{< embed /penguins.ipynb#fig-bill-scatter >}}
+
+{{< include /child.qmd >}}
