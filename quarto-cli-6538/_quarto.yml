@@ -1,0 +1,15 @@
+project:
+  type: manuscript
+
+manuscript:
+  article: index.qmd
+
+format:
+  html:
+    comments:
+      hypothesis: true
+    citations-hover: true
+    crossrefs-hover: true
+    toc: true
+    toc-location: left
+    title-block-style: manuscript

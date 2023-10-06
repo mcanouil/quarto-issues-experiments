@@ -1,0 +1,14 @@
+# This is a test
+
+This loads `PrettyTables` for table formatting
+
+```{julia}
+using PrettyTables
+```
+
+And this generates a table to display in the main document:
+
+```{julia}
+#| label: tbl-test
+pretty_table(rand(1:8, (3, 3)), tf = tf_markdown)
+```

@@ -1,0 +1,11 @@
+---
+title: var
+authors:
+  - name: t
+---
+
+This should show a table?
+
+{{< embed ./notebooks/tables.qmd#tbl-test >}}
+
+It doesn't
