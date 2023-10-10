@@ -1,0 +1,9 @@
+- title: "{{< iconify fa6-brands r-project >}} Packages"
+  subtitle: "{{< iconify fa6-brands r-project >}} packages development guidelines and workflows"
+  links:
+    - text: "{{< iconify fa6-brands r-project >}} Development Guidelines"
+      href: whatever.qmd
+    - text: "The `best` Package"
+      href: guide/r-pkgs/best.qmd
+    - text: "The `worst` Package"
+      href: guide/r-pkgs/worst.qmd

@@ -1,0 +1,11 @@
+---
+title: "Guide"
+subtitle: Comprehensive guide to work on a study and with the codebase.
+page-layout: article
+anchor-sections: false
+search: false
+listing:
+  id: guide
+  template: guide.ejs
+  contents: guide.yml
+---
