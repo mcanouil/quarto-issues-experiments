@@ -1,0 +1,17 @@
+---
+title: Typst
+format: typst
+keep-typ: true
+---
+
+```{=typst}
+#set text(font: "Orbitron")
+```
+
+Some text.
+
+Then render with:
+
+```bash
+export TYPST_FONT_PATHS=./fonts && quarto typst compile index.typ
+```
