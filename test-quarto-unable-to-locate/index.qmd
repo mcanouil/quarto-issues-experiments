@@ -1,0 +1,21 @@
+---
+format: html
+---
+
+```{r}
+df <- iris
+f <- function() table(seq_len(2^31))
+```
+
+```{r}
+#| eval: false
+f()
+```
+
+```{r}
+rstudioapi::restartSession()
+```
+
+```{r}
+head(x, c(5, 5))
+```
