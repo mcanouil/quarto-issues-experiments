@@ -1,0 +1,9 @@
+---
+title: "quarto-gh-pages"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+Add something to trigger GitHub Actions.
