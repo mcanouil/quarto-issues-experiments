@@ -1,0 +1,19 @@
+---
+title: "Jax"
+engine: python3
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```bash
+pip install jupyter
+pip install jax
+pip install -U "jax[cpu]"
+pip freeze > requirements.txt
+```
+
+```{python}
+import jax.numpy as jnp
+```
