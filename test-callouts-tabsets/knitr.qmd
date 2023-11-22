@@ -1,0 +1,76 @@
+---
+title: "knitr"
+format: html
+embed-resources: true
+execute:
+  echo: false
+---
+
+## `panel: tabset` -> bad
+
+```{r}
+#| panel: tabset
+#| output: asis
+```
+
+## `classes: .panel-tabset` -> bad
+
+```{r}
+#| classes: .panel-tabset
+#| output: asis
+```
+
+## `panel: tabset` + `eval: false` -> bad
+
+```{r}
+#| panel: tabset
+#| output: asis
+#| eval: false
+```
+
+## `classes: .panel-tabset` + `eval: false` -> bad
+
+```{r}
+#| classes: .panel-tabset
+#| output: asis
+#| eval: false
+```
+
+## `panel: tabset` + `include: false` -> good
+
+```{r}
+#| panel: tabset
+#| output: asis
+#| include: false
+```
+
+## `classes: .panel-tabset` + `include: false` -> good
+
+```{r}
+#| classes: .panel-tabset
+#| output: asis
+#| include: false
+```
+
+## `classes: callout-note` -> bad
+
+```{r}
+#| classes: callout-note
+#| output: asis
+```
+
+## `classes: callout-note` + `eval: false` -> bad
+
+```{r}
+#| classes: callout-note
+#| output: asis
+#| eval: false
+```
+
+## `classes: callout-note` + `include: false` -> good
+
+```{r}
+#| classes: callout-note
+#| output: asis
+#| include: false
+```

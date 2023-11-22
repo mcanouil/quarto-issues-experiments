@@ -1,0 +1,76 @@
+---
+title: "jupyter"
+format: html
+embed-resources: true
+execute:
+  echo: false
+---
+
+## `panel: tabset` -> good
+
+```{python}
+#| panel: tabset
+#| output: asis
+```
+
+## `classes: .panel-tabset` -> good
+
+```{python}
+#| classes: .panel-tabset
+#| output: asis
+```
+
+## `panel: tabset` + `eval: false` -> good
+
+```{python}
+#| panel: tabset
+#| output: asis
+#| eval: false
+```
+
+## `classes: .panel-tabset` + `eval: false` -> good
+
+```{python}
+#| classes: .panel-tabset
+#| output: asis
+#| eval: false
+```
+
+## `panel: tabset` + `include: false` -> good
+
+```{python}
+#| panel: tabset
+#| output: asis
+#| include: false
+```
+
+## `classes: .panel-tabset` + `include: false` -> good
+
+```{python}
+#| classes: .panel-tabset
+#| output: asis
+#| include: false
+```
+
+## `classes: callout-note` -> good
+
+```{python}
+#| classes: callout-note
+#| output: asis
+```
+
+## `classes: callout-note` + `eval: false` -> good
+
+```{python}
+#| classes: callout-note
+#| output: asis
+#| eval: false
+```
+
+## `classes: callout-note` + `include: false` -> good
+
+```{python}
+#| classes: callout-note
+#| output: asis
+#| include: false
+```
