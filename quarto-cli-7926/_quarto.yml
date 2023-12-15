@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Quarto-cli-XXXX"
+  navbar:
+    left:
+      - text: Home
+        menu:
+          - text: "Index"
+            href: index.qmd
+          - text: "About"
+            href: about.qmd
+
+  sidebar:
+    - contents:
+      - section: "Part 1"
+        contents:
+          - text: "Introduction to {{< iconify fa6-brands r-project >}}"
+            href: index.qmd
+          - text: "About {{< meta title >}}"
+            href: about.qmd
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: true
