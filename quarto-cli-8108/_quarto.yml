@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "Demo-book"
+  author: "Norah Jones"
+  date: "1/3/2024"
+  chapters:
+    - part: "First"
+      chapters:
+        - index.qmd
+        - intro.qmd
+    - part: "Second"
+      chapters:
+        - summary.qmd
+        - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
