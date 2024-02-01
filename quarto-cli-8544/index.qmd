@@ -1,0 +1,48 @@
+---
+title: "John Doe"
+subtitle: |
+  Being a **PhD student** at the *University of Amazingness*
+image: profile.png
+about:
+  id: edu-exp
+  template: solana
+  image-width: 9em
+  image-shape: round
+---
+
+::: {#edu-exp}
+:::
+
+{{< lipsum 1 >}}
+
+Some random sentences.
+
+`<img src="https://placehold.co/800x150.png" class="img-fluid" alt="Movies seen in a movie theatre year streak" />`{=html}
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-8 style="text-align: left;"}
+## Education
+
+- Amazing degree, **2021**  
+  *University of Amazingness*
+
+- Another degree, **2019**  
+  *University of Awesomeness*
+
+:::
+
+::: {.g-col-12 .g-col-md-4 style="text-align: left;"}
+## Interests
+
+- Quarto
+- Quarto
+- Quarto
+- Quarto
+- Quarto
+- Quarto
+- Quarto
+- Yeah, I like Quarto
+:::
+
+::::

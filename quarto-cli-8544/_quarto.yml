@@ -1,0 +1,14 @@
+project:
+  type: website
+
+website:
+  title: "Broken between 1.4.533 and 1.4.534"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    toc: true
