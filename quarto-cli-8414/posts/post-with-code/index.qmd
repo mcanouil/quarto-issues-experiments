@@ -1,0 +1,21 @@
+---
+title: "Post With Code"
+author: "Harlow Malloc"
+date: "2024-02-14"
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+
+::: {.content-visible when-profile="french"}
+---
+categories: [nouveautés, code, analyse]
+---
+:::
+
+::: {.content-visible when-profile="english"}
+---
+categories: [news, code, analysis]
+---
+:::
