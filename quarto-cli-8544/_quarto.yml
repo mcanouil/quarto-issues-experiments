@@ -6,7 +6,17 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Solana
+      - href: broadside.qmd
+        text: Broadside
+      - href: trestles.qmd
+        text: Trestles
+      - href: jolla.qmd
+        text: Jolla
+      - href: solana.qmd
+        text: Solana
+      - href: marquee.qmd
+        text: Marquee
 
 format:
   html:
