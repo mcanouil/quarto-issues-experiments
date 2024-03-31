@@ -16,12 +16,12 @@ do
   mkdir -p "posts/post-$i"
 
   # Create the markdown file
-  echo "---" > "posts/post-$i/post-$i.qmd"
-  echo "title: \"Post $i\"" >> "posts/post-$i/post-$i.qmd"
-  echo "author: \"$author\"" >> "posts/post-$i/post-$i.qmd"
-  echo "date: \"$date\"" >> "posts/post-$i/post-$i.qmd"
-  echo "categories: [post-$i]" >> "posts/post-$i/post-$i.qmd"
-  echo "---" >> "posts/post-$i/post-$i.qmd"
-  echo "" >> "posts/post-$i/post-$i.qmd"
-  echo "This is the post $i" >> "posts/post-$i/post-$i.qmd"
+  echo "---" > "posts/post-$i/index.qmd"
+  echo "title: \"Post $i\"" >> "posts/post-$i/index.qmd"
+  echo "author: \"$author\"" >> "posts/post-$i/index.qmd"
+  echo "date: \"$date\"" >> "posts/post-$i/index.qmd"
+  echo "categories: [post-$i]" >> "posts/post-$i/index.qmd"
+  echo "---" >> "posts/post-$i/index.qmd"
+  echo "" >> "posts/post-$i/index.qmd"
+  echo "This is the post $i" >> "posts/post-$i/index.qmd"
 done
