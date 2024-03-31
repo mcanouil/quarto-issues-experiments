@@ -1,0 +1,13 @@
+---
+title: "Demo"
+listing:
+  contents: posts
+  categories: true
+  sort: "date desc"
+  type: default
+  sort-ui: false
+  filter-ui: false
+  max-items: 15
+page-layout: full
+title-block-banner: true
+---

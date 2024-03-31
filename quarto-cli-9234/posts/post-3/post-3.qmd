@@ -1,0 +1,8 @@
+---
+title: "Post 3"
+author: "Tristan O'Malley"
+date: "2024-03-28"
+categories: [post-3]
+---
+
+This is the post 3
