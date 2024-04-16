@@ -1,0 +1,13 @@
+---
+title: "Module 2"
+format: html
+engine: markdown
+---
+
+This is a reproducible Quarto document.
+
+{{< iconify exploding-head size=Huge >}}
+
+![An image](https://placehold.co/600x400.png)
+
+The end.

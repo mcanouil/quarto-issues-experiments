@@ -1,0 +1,13 @@
+---
+title: "Module 1"
+format: html
+engine: markdown
+filters:
+  - preview-colour
+---
+
+This is a reproducible Quarto document with `#b22222` as the preview colour.
+
+![An image](https://placehold.co/600x400.png)
+
+The end.
