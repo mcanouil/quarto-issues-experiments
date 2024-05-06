@@ -9,7 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - about/index.qmd
-      - about/something.qmd
+      - about/test/something.qmd
+      - root-page.index.qmd
 
 format:
   html:
