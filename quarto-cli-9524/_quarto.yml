@@ -1,0 +1,17 @@
+project:
+  type: website
+
+website:
+  site-url: "http://www.example.com/"
+  title: "Quarto 9524"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about/index.qmd
+
+format:
+  html:
+    canonical-url: true
+    theme: cosmo
+    toc: true
