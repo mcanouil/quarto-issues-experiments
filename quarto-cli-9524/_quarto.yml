@@ -2,13 +2,14 @@ project:
   type: website
 
 website:
-  site-url: "http://www.example.com/"
+  site-url: https://index.html.com/
   title: "Quarto 9524"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about/index.qmd
+      - about/something.qmd
 
 format:
   html:
