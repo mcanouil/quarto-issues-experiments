@@ -1,0 +1,17 @@
+project:
+  type: website
+  execute-dir: project
+
+website:
+  title: "Quarto-cli-9649"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
