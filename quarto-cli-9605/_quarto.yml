@@ -1,0 +1,10 @@
+project:
+  output-dir: _outputs
+
+embed-resources: true
+
+format:
+  html:
+    title: "Using _quarto.yml"
+  typst:
+    title: "Using _quarto.yml"
