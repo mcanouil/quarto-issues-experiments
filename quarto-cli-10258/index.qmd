@@ -1,0 +1,8 @@
+---
+title: "Reproducible Quarto Document"
+listing:
+    contents: "posts"
+    image-placeholder: "image_placeholder.png"
+---
+
+<!-- Include placeholder image in code: ![](_img/image_placeholder.PNG) -->

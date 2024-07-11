@@ -1,0 +1,6 @@
+---
+title: "Empty Document 2"
+author: Author 2
+--- 
+
+This is some text. 
