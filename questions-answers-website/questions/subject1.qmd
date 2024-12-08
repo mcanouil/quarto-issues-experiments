@@ -1,0 +1,23 @@
+---
+title: "Exam Subject 1"
+---
+
+## First Exercise
+
+{{< lipsum 1 >}}
+
+::: {.content-hidden unless-meta="answer"}
+## Answer
+
+{{< lipsum 2 >}}
+:::
+
+## Second Exercise
+
+{{< lipsum 1 >}}
+
+::: {.content-hidden unless-meta="answer"}
+## Answer
+
+{{< lipsum 2 >}}
+:::
