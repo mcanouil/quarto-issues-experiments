@@ -4,6 +4,7 @@ project:
 website:
   title: "demo"
   navbar:
+    logo: https://raw.githubusercontent.com/mcanouil/quarto-wizard/refs/heads/main/assets/logo/logo.png
     left:
       - href: index.qmd
         text: Home
