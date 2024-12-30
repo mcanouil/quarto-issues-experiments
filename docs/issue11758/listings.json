@@ -1,0 +1,23 @@
+[
+  {
+    "listing": "/table.html",
+    "items": [
+      "/posts-table/post-with-code/index.html",
+      "/posts-table/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/grid.html",
+    "items": [
+      "/posts-grid/post-with-code/index.html",
+      "/posts-grid/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
+  }
+]

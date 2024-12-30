@@ -1,0 +1,14 @@
+---
+title: "Welcome To My Blog with `code`"
+description: |
+  This is a text with **bold** and *italic* formatting and  `code`.
+author: "Tristan O'Malley"
+date: "2024-12-27"
+categories: [news, "category with spaces", "😈"]
+---
+
+This is the first post in a Quarto blog. Welcome!
+
+![](thumbnail.jpg)
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
