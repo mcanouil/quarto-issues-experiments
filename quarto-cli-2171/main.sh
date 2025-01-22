@@ -7,12 +7,12 @@ find . -type f -name ".gitignore" -exec rm -f {} +
 find . -type f -name "*.html" -exec rm -f {} +
 
 for dir in */; do
-  if [ -d "$dir" ]; then
-    cd "$dir"
+  if [ -d "${dir}" ]; then
+    cd "${dir}"
     if [ -f "run.sh" ]; then
       bash run.sh
     else
-      echo "run.sh not found in $dir"
+      echo "run.sh not found in ${dir}"
     fi
     cd ..
   fi
