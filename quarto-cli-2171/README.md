@@ -1,6 +1,7 @@
 # Check output directory/file options
 
 Date: 2025-01-22
+
 Quarto: 1.7 (https://github.com/quarto-dev/quarto-cli/commit/634916c8738c804074f3f4297cc68825b55b2d60)
 
 | Setup                                      | Status                                                                                      | `embed-resources` | `--output-dir` | `--output` | `output-file` | `input/` | `_quarto.yml_` |
