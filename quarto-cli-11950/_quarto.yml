@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "11950"
+  author: "Norah Jones"
+  date: "1/27/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - references.qmd
+  appendices: 
+    - summary.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+crossref:
+  appendix-title: "Whatever"
+  appendix-delim: ":"
