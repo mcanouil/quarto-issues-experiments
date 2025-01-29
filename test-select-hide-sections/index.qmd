@@ -1,0 +1,49 @@
+---
+title: "Quarto Select/Hide Sections"
+format: html
+toc: true
+engine: markdown
+include-after-body:
+  - text: |
+      <script>
+        document.getElementById("feature-select").addEventListener("change", function() {
+          const selected_value = this.value;
+          const toc = document.getElementById("TOC");
+          if (selected_value === "feat-all") {
+            document.querySelectorAll('section[id^="feat-"]').forEach(function(section) {
+              section.style.display = "block";
+            });
+            toc.style.display = "block";
+          } else {
+            document.querySelectorAll('section[id^="feat-"]').forEach(function(section) {
+              section.style.display = "none";
+            });
+            document.getElementById(selected_value).style.display = "block";
+            toc.style.display = "none";
+          }
+        });
+      </script>
+---
+
+## First section
+
+```{=html}
+<select id="feature-select" class="form-select" multiple aria-label="Select section(s)">
+  <option value="feat-all" selected>All</option>
+  <option value="feat-one">one</option>
+  <option value="feat-two">two</option>
+  <option value="feat-three">three</option>
+</select>
+```
+
+### Feature: `one` {#feat-one}
+
+{{< lipsum 1 >}}
+
+### Feature: `two` {#feat-two}
+
+{{< lipsum 1 >}}
+
+### Feature: `three` {#feat-three}
+
+{{< lipsum 1 >}}
