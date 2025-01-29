@@ -1,3 +1,3 @@
-# Statistical Analysis Listing
+# Title Dropdown
 
-See https://m.canouil.dev/quarto-issues-experiments/title-dropdowng/
+See https://m.canouil.dev/quarto-issues-experiments/title-dropdown/
