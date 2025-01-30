@@ -1,0 +1,51 @@
+```{=html}
+<style>
+  .quarto-badge {
+    vertical-align: text-bottom;
+    font-size: 0.5em;
+  }
+
+  .nav-link .quarto-badge {
+    display: none;
+  }
+
+  .quarto-badge-href {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a.nav-link.quarto-badge-href {
+    display: none;
+  }
+</style>
+<div class="list quarto-listing-default">
+  <% for (const item of items) { %>
+    <div class="quarto-post <%= metadataAttrs(item) %>" data-analysis-status="<%= item.status %>">
+      <div class="body">
+        <a href="<%- item.path %>">
+          <h3 class="no-anchor listing-title" style="margin-bottom: 0.1em;">
+            <% if (item.status === 'Proof of Concept') { %>
+              <span class="badge rounded-pill quarto-badge bg-danger"><%= item.status %></span> <%= item.title %>
+            <% } else if (item.status === 'Preliminary') { %>
+              <span class="badge rounded-pill quarto-badge bg-warning"><%= item.status %></span> <%= item.title %>
+            <% } else if (item.status === 'Final') { %>
+              <span class="badge rounded-pill quarto-badge bg-success"><%= item.status %></span> <%= item.title %>
+            <% } else { %>
+              <%= item.title %>
+            <% } %>
+          </h3>
+          <% if (item.subtitle) { %>
+            <div class="listing-subtitle"><i><b><%= item.subtitle %></b></i></div>
+          <% } %>
+          <div class="listing-categories">
+            <% for (const category of item.categories) { %>
+            <div class="listing-category"><%= category %></div>
+            <% } %>
+          </div>
+        </a>
+        <a href="<%- item.path %>"><div class="delink listing-description" style="font-style: italic;"><%= item.description %></div></a>
+      </div>
+    </div>
+  <% } %>
+</div>
+```

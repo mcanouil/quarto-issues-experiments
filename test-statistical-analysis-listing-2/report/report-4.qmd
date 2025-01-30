@@ -1,0 +1,18 @@
+---
+title: "Report 4"
+date: 2025-01-30
+date-modified: last-modified
+abstract: |
+  This report aims at doing this and that because it's amazing and I am awesome ...
+status: "Final"
+categories:
+  - "Whatever"
+  - "Method"
+author:
+  - name: "Firstname Lastname"
+    email: "firstname.lastname@domain.com"
+---
+
+## Your analysis starts here!
+
+{{< lipsum 2 >}}
