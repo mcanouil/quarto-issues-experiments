@@ -2,7 +2,7 @@
 <style>
   .quarto-badge {
     vertical-align: text-bottom;
-    font-size: .60em;
+    font-size: 0.5em;
   }
 
   .nav-link .quarto-badge {
@@ -23,7 +23,7 @@
     <div class="quarto-post <%= metadataAttrs(item) %>" data-analysis-status="<%= item.status %>">
       <div class="body">
         <a href="<%- item.path %>">
-          <h3 class="no-anchor listing-title">
+          <h3 class="no-anchor listing-title" style="margin-bottom: 0.1em;">
             <% if (item.status === 'Proof of Concept') { %>
               <span class="badge rounded-pill quarto-badge bg-danger"><%= item.status %></span> <%= item.title %>
             <% } else if (item.status === 'Preliminary') { %>

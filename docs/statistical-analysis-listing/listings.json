@@ -2,8 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/analysis/analysis-2.html",
       "/analysis/analysis-3.html",
+      "/analysis/analysis-2.html",
+      "/analysis/analysis-4.html",
       "/analysis/analysis-1.html"
     ]
   }

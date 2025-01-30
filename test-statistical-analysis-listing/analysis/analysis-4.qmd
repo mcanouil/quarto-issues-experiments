@@ -1,10 +1,10 @@
 ---
-title: "Analysis 3"
-date: 2025-01-05
+title: "Analysis 4"
+date: 2025-01-30
 date-modified: last-modified
 abstract: |
   This report aims at doing this and that because it's amazing and I am awesome ...
-status: "Final"
+status: "Preliminary"
 categories:
   - "Whatever"
   - "Method"
