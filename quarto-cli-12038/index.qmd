@@ -1,0 +1,5 @@
+# Preface {.unnumbered}
+
+This is a [![](images/quarto-logo-trademark.svg){fig-alt="Quarto logo" width=40px}](https://quarto.org) book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
