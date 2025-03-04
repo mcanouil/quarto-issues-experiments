@@ -11,6 +11,7 @@ listing:
       - "date desc"
     sort-ui: false
     filter-ui: true
+    categories: true
     date-format: "iso"
     field-display-names: 
       status: "Status"

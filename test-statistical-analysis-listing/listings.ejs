@@ -20,7 +20,7 @@
 </style>
 <div class="list quarto-listing-default">
   <% for (const item of items) { %>
-    <div class="quarto-post <%= metadataAttrs(item) %>" data-analysis-status="<%= item.status %>">
+    <div class="quarto-post" data-analysis-status="<%= item.status %>" <%= metadataAttrs(item) %>>
       <div class="body">
         <a href="<%- item.path %>">
           <h3 class="no-anchor listing-title" style="margin-bottom: 0.1em;">
@@ -37,12 +37,12 @@
           <% if (item.subtitle) { %>
             <div class="listing-subtitle"><i><b><%= item.subtitle %></b></i></div>
           <% } %>
-          <div class="listing-categories">
-            <% for (const category of item.categories) { %>
-            <div class="listing-category"><%= category %></div>
-            <% } %>
-          </div>
         </a>
+        <div class="listing-categories">
+          <% for (const category of item.categories) { %>
+          <div class="listing-category" onclick="window.quartoListingCategory('<%= utils.b64encode(category) %>'); return false;"><%= category %></div>
+          <% } %>
+        </div>
         <a href="<%- item.path %>"><div class="delink listing-description" style="font-style: italic;"><%= item.description %></div></a>
       </div>
     </div>
