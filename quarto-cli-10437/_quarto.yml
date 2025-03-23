@@ -5,7 +5,7 @@ website:
   title: "quarto-cli-10437"
   navbar:
     right:
-      - about.qmd
+      - subdirectory/about.qmd
       - icon: github
         href: https://github.com/
       - icon: twitter
@@ -16,6 +16,3 @@ format:
       - cosmo
       - brand
     css: styles.css
-
-
-
