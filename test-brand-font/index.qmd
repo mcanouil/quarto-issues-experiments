@@ -1,0 +1,11 @@
+---
+title: Fonts from Brand
+format:
+  html:
+    embed-resources: true
+  typst: default
+---
+
+## Headings
+
+{{< lipsum 1 >}}

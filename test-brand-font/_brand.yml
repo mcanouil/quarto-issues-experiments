@@ -1,0 +1,12 @@
+typography:
+  fonts:
+    - family: Underdog
+      source: file
+      files:
+        - path: fonts/Underdog-Regular.ttf
+  headings:
+    family: Underdog
+  base: Underdog
+color:
+  background: "#333333"
+  foreground: "#fafafa"
