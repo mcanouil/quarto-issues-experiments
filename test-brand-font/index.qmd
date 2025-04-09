@@ -1,8 +1,8 @@
 ---
 title: Fonts from Brand
 format:
-  html:
-    embed-resources: true
+  revealjs: default
+  html: default
   typst: default
 ---
 
