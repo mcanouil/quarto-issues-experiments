@@ -1,0 +1,75 @@
+/*-- scss:rules --*/
+
+/* Hero Image Background for Title Block Header */
+/* Only apply styles when a hero image is present */
+body:has(img.hero) #title-block-header.quarto-title-block {
+  position: relative;
+  min-height: 60vh;
+  background-color: transparent !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Override any background color from theme/brand */
+body:has(img.hero) #title-block-header.quarto-title-block .quarto-title-banner {
+  background-color: transparent !important;
+}
+
+/* Add overlay for better text readability */
+body:has(img.hero) #title-block-header.quarto-title-block::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  z-index: 0;
+}
+
+/* Ensure content stays above the overlay */
+body:has(img.hero) #title-block-header.quarto-title-block > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Make the title banner span full width */
+body:has(img.hero) #title-block-header .quarto-title-banner {
+  max-width: none;
+  width: 100%;
+  padding-left: max(1rem, calc(50vw - 570px));
+  padding-right: max(1rem, calc(50vw - 570px));
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Improve text visibility on hero background */
+body:has(img.hero) #title-block-header .quarto-title-banner .title,
+body:has(img.hero) #title-block-header .quarto-title-meta-heading,
+body:has(img.hero) #title-block-header .quarto-title-meta-contents,
+body:has(img.hero) #title-block-header .quarto-category {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+body:has(img.hero) #title-block-header .quarto-category {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Hide the hero image element itself */
+img.hero {
+  display: none !important;
+}
