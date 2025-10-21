@@ -1,0 +1,11 @@
+{
+  "hash": "42e26f1af4008bb4599fb6e507121da2",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\nengine: julia\nexecute: \n  freeze: auto\n---\n\n::: {#2 .cell .hidden execution_count=1}\n``` {}\n#| include: false\nusing Pkg\nPkg.add(\"CairoMakie\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n   Resolving package versions...\n     Project No packages added to or removed from `~/Projects/quarto-dev/quarto-playground/Project.toml`\n    Manifest No packages added to or removed from `~/Projects/quarto-dev/quarto-playground/Manifest.toml`\n```\n:::\n:::\n\n\n\n# Second file\n\nI will generate a random scatter plot here which I want to embed in the first file:\n\n::: {#cell-fig-test-figure .cell execution_count=1}\n``` {}\n#| fig-cap: \"This is a figure caption\"\n#| label: fig-test-figure\nusing CairoMakie\n\nfig,ax,s = scatter(rand(1000), rand(1000))\nfig\n\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n![This is a figure caption](second-file_files/figure-jats/fig-test-figure-output-1.png){#fig-test-figure width=672 height=480}\n:::\n:::\n\n\n\nMore text here\n\n::: {#fig-test-figure2 .cell execution_count=1}\n``` {}\n#| fig-cap: \"Now I'll use `display()` to see if it makes a difference\"\n#| label: fig-test-figure2\nusing CairoMakie\n\nfig,ax,s = scatter(rand(1000), rand(1000))\ndisplay(fig)\n\n```\n\n::: {.cell-output .cell-output-display}\n![Now I'll use `display()` to see if it makes a difference](second-file_files/figure-jats/fig-test-figure2-output-1.png){#fig-test-figure2-1 width=672 height=480}\n:::\n\n::: {#fig-test-figure2-2 .cell-output .cell-output-display execution_count=1}\n```\nCairoMakie.Screen{IMAGE}\n```\n:::\n:::\n\n\n\n",
+    "supporting": [
+      "second-file_files/figure-jats"
+    ],
+    "filters": []
+  }
+}

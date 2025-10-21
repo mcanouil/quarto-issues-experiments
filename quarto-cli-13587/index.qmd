@@ -1,0 +1,25 @@
+---
+title: issue13587
+authors:
+  - name: Norah Jones
+    affiliation: The University
+    roles: writing
+    corresponding: true
+bibliography: references.bib
+---
+
+## Section
+
+This is a simple placeholder for the manuscript's main document [@knuth84].
+
+This contains an MWE for image embedding not working with Julia v1.11 & Quarto v1.8 and 1.9.8. 
+
+Let's embed an image from `second-file.qmd` here:
+
+{{< embed second-file.qmd#fig-test-figure >}}
+
+There should've been a figure here, but it doesn't show up. This makes me very sad. 
+
+{{< embed second-file.qmd#fig-test-figure2 >}}
+
+Did you see the second figure which I ran `display()` on? Sadly neither did I. 

@@ -1,0 +1,39 @@
+---
+engine: julia
+execute: 
+  freeze: auto
+---
+
+```{julia}
+#| include: false
+using Pkg
+Pkg.add("CairoMakie")
+```
+
+# Second file
+
+I will generate a random scatter plot here which I want to embed in the first file:
+
+```{julia}
+#| fig-cap: "This is a figure caption"
+#| label: fig-test-figure
+
+using CairoMakie
+
+fig,ax,s = scatter(rand(1000), rand(1000))
+fig
+
+```
+
+More text here
+
+```{julia}
+#| fig-cap: "Now I'll use `display()` to see if it makes a difference"
+#| label: fig-test-figure2
+
+using CairoMakie
+
+fig,ax,s = scatter(rand(1000), rand(1000))
+display(fig)
+
+```

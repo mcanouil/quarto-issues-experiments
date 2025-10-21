@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>issue13587</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Jones</surname>
+            <given-names>Norah</given-names>
+          </name>
+          <string-name>Norah Jones</string-name>
+          <role vocab="https://credit.niso.org" vocab-term="writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">writing</role>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+          <xref ref-type="corresp" rid="cor-1">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <institution-wrap>
+          <institution>The University</institution>
+        </institution-wrap>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1"/>
+      </author-notes>
+      <history/>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="section">
+      <title>Section</title>
+      <p>This is a simple placeholder for the manuscript’s main document
+  (<xref alt="Knuth 1984" rid="ref-knuth84" ref-type="bibr">Knuth
+  1984</xref>).</p>
+      <p>This contains an MWE for image embedding not working with Julia
+  v1.11 &amp; Quarto v1.8 and 1.9.8.</p>
+      <p>Let’s embed an image from <monospace>second-file.qmd</monospace>
+  here:</p>
+      <fig id="fig-test-figure">
+        <caption>
+          <p>Figure 1</p>
+        </caption>
+      </fig>
+      <p>There should’ve been a figure here, but it doesn’t show up. This
+  makes me very sad.</p>
+      <fig id="fig-test-figure2">
+        <caption>
+          <p>Figure 2</p>
+        </caption>
+      </fig>
+      <p>Did you see the second figure which I ran
+  <monospace>display()</monospace> on? Sadly neither did I.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title/>
+      <ref id="ref-knuth84">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Knuth</surname>
+              <given-names>Donald E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Literate programming</article-title>
+          <source>Comput. J.</source>
+          <publisher-name>Oxford University Press, Inc.</publisher-name>
+          <publisher-loc>USA</publisher-loc>
+          <year iso-8601-date="1984-05">1984</year>
+          <month>05</month>
+          <volume>27</volume>
+          <issue>2</issue>
+          <issn>0010-4620</issn>
+          <uri>https://doi.org/10.1093/comjnl/27.2.97</uri>
+          <pub-id pub-id-type="doi">10.1093/comjnl/27.2.97</pub-id>
+          <fpage>97</fpage>
+          <lpage>111</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <sub-article article-type="notebook" id="nb-3-nb-1">
+    <front-stub>
+</front-stub>
+    <body>
+      <sec id="cell-2-nb-1" specific-use="notebook-content">
+        <preformat>#| include: false
+using Pkg
+Pkg.add("CairoMakie")</preformat>
+        <boxed-text>
+          <preformat>   Resolving package versions...
+     Project No packages added to or removed from `~/Projects/quarto-dev/quarto-playground/Project.toml`
+    Manifest No packages added to or removed from `~/Projects/quarto-dev/quarto-playground/Manifest.toml`</preformat>
+        </boxed-text>
+      </sec>
+      <sec id="second-file-nb-1">
+        <title>Second file</title>
+        <p>I will generate a random scatter plot here which I want to embed in
+  the first file:</p>
+        <sec id="cell-fig-test-figure-nb-1" specific-use="notebook-content">
+          <preformat>#| fig-cap: "This is a figure caption"
+#| label: fig-test-figure
+using CairoMakie
+
+fig,ax,s = scatter(rand(1000), rand(1000))
+fig
+  </preformat>
+          <boxed-text>
+            <fig id="fig-test-figure-nb-1">
+              <caption>
+                <p>This is a figure caption</p>
+              </caption>
+              <graphic mimetype="image" mime-subtype="png" xlink:href="second-file_files/figure-jats/fig-test-figure-output-1.png"/>
+            </fig>
+          </boxed-text>
+        </sec>
+        <p>More text here</p>
+        <sec specific-use="notebook-content">
+          <preformat>#| fig-cap: "Now I'll use `display()` to see if it makes a difference"
+#| label: fig-test-figure2
+using CairoMakie
+
+fig,ax,s = scatter(rand(1000), rand(1000))
+display(fig)
+  </preformat>
+          <fig id="fig-test-figure2-nb-1">
+            <boxed-text>
+              <fig id="fig-test-figure2-1-nb-1">
+                <caption>
+                  <p>Now I’ll use <monospace>display()</monospace> to see
+        if it makes a difference</p>
+                </caption>
+                <graphic mimetype="image" mime-subtype="png" xlink:href="second-file_files/figure-jats/fig-test-figure2-output-1.png"/>
+              </fig>
+            </boxed-text>
+            <fig id="fig-test-figure2-2-nb-1">
+              <preformat>CairoMakie.Screen{IMAGE}</preformat>
+            </fig>
+          </fig>
+        </sec>
+      </sec>
+    </body>
+    <back>
+</back>
+  </sub-article>
+</article>
