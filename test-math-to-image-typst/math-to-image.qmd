@@ -1,0 +1,28 @@
+---
+title: Math to Image Filter Test
+format: html
+filters:
+  - path: math-to-image.lua
+    at: pre-quarto
+math-format: png
+math-convert: full
+math-dpi: 300
+math-inline-dpi: 150
+math-inline-height: 0.15in
+---
+
+## Test Display Math
+
+$$
+E = mc^2
+$$
+
+## Test Another Equation
+
+$$
+\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}
+$$
+
+## Test Inline Math
+
+This is inline: $y = mx + b$ within a sentence.
