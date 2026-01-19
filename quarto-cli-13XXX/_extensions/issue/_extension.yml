@@ -1,0 +1,8 @@
+title: Issue
+author: Mickaël Canouil
+version: 1.0.0
+quarto-required: ">=1.8.0"
+contributes:
+  formats:
+    typst:
+      logo: quarto-icon.svg
