@@ -6,3 +6,6 @@ contributes:
   formats:
     typst:
       logo: quarto-icon.svg
+      custom-logo: quarto-icon.svg
+      template-partials:
+        - page.typ
