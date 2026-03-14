@@ -1,0 +1,56 @@
+```{=html}
+<style type="text/css">
+.listing-carousel {
+  max-height: 600px;
+}
+.listing-carousel .carousel-item img {
+  max-height: 600px;
+  object-fit: cover;
+}
+.listing-carousel .carousel-caption.listing-carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  bottom: 1.25rem;
+}
+</style>
+
+<% const carouselId = 'carousel-' + Math.random().toString(36).substring(2, 10); %>
+<div id="<%= carouselId %>" class="listing-carousel carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <% for (let i = 0; i < items.length; i++) { %>
+    <button type="button" data-bs-target="#<%= carouselId %>" data-bs-slide-to="<%= i %>"<%= i === 0 ? ' class="active" aria-current="true"' : '' %> aria-label="Slide <%= i + 1 %>"></button>
+    <% } %>
+  </div>
+  <div class="carousel-inner">
+    <% for (let i = 0; i < items.length; i++) { %>
+    <div class="carousel-item<%= i === 0 ? ' active' : '' %>">
+      <img src="<%= items[i].path %>" class="d-block w-100" alt="<%= items[i].caption || '' %>" loading="lazy">
+      <% if (items[i].caption) { %>
+      <div class="carousel-caption listing-carousel-caption">
+        <p class="mb-0">
+```
+
+<%= items[i].caption %>
+
+```{=html}
+        </p>
+      </div>
+      <% } %>
+    </div>
+    <% } %>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#<%= carouselId %>" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#<%= carouselId %>" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+```

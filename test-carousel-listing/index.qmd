@@ -1,0 +1,37 @@
+---
+page-layout: full
+listing:
+  - id: listing-carousel
+    template: carousel.ejs
+    contents:
+      - carousel/*.jpg
+    sort-ui: false
+    filter-ui: false
+    categories: false
+  - id: listing-carousel-caption
+    template: carousel.ejs
+    contents:
+      - path: carousel/aaron-burden-0QnBA_xdZlQ-unsplash.jpg
+        caption: "Aaron Burden"
+      - path: carousel/alexey-elfimov-mY8Lt8cqOiI-unsplash.jpg
+        caption: "Alexey Elfimov"
+      - path: carousel/alexey-elfimov-vJJ5PtWymSY-unsplash.jpg
+        caption: "Alexey Elfimov"
+      - path: carousel/andrey-strizhkov-_71tdICMTzY-unsplash.jpg
+        caption: "Andrey Strizhkov"
+      - path: carousel/austris-augusts-i5SzUPuVgaY-unsplash.jpg
+        caption: "Austris Augusts"
+      - path: carousel/benjamin-chambon-coM7mp3tQwA-unsplash.jpg
+        caption: "Benjamin Chambon"
+    sort-ui: false
+    filter-ui: false
+    categories: false
+---
+
+::: {#listing-carousel}
+:::
+
+{{< lipsum 2 >}}
+
+::: {#listing-carousel-caption}
+:::
