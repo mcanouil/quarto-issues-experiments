@@ -1,9 +1,8 @@
---- @module code-language
+--- @module language-filename-normalisation
 --- @license MIT
 --- @copyright 2026 Mickaël Canouil
 --- @author Mickaël Canouil
---- @brief Normalise code blocks with no language class or an unknown language class to "default".
-
+--- @brief Normalise code blocks with no or unknown language class.
 
 local known_language_cache = {}
 
@@ -36,12 +35,16 @@ end
 function CodeBlock(block)
   if not block.classes or #block.classes == 0 then
     block.classes:insert('default')
+    block.attributes['code-window-no-auto-filename'] = 'true'
     return block
   end
 
   local lang = block.classes[1]
   if not is_known_language(lang) then
     block.classes[1] = 'default'
+    if not block.attributes['filename'] or block.attributes['filename'] == '' then
+      block.attributes['filename'] = lang
+    end
   end
 
   return block
