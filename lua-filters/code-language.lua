@@ -4,7 +4,6 @@
 --- @author Mickaël Canouil
 --- @brief Normalise code blocks with no language class or an unknown language class to "default".
 
-
 local known_language_cache = {}
 
 --- Check if a language is recognised by Pandoc's syntax highlighter.
