@@ -1,0 +1,14 @@
+---
+title: Brand fonts in Reveal.js
+format:
+  revealjs:
+    embed-resources: true
+---
+
+## Slide 1
+
+This text should use Fira Code from the brand configuration.
+
+## Slide 2
+
+The font should be embedded in the self-contained HTML.
