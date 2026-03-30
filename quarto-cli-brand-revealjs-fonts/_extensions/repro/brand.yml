@@ -1,0 +1,13 @@
+color:
+  primary: "#00C072"
+
+typography:
+  fonts:
+    - family: Fira Code
+      source: file
+      files:
+        - path: fonts/FiraCode-Regular.ttf
+          weight: 400
+          style: normal
+  base:
+    family: Fira Code

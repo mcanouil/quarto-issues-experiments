@@ -1,0 +1,12 @@
+---
+title: Brand fonts in Reveal.js
+format: repro-revealjs
+---
+
+## Slide 1
+
+This text should use Fira Code from the brand configuration.
+
+## Slide 2
+
+The font should be embedded in the self-contained HTML.
