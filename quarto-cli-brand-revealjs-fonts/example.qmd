@@ -1,6 +1,8 @@
 ---
 title: Brand fonts in Reveal.js
-format: repro-revealjs
+format:
+  revealjs:
+    embed-resources: true
 ---
 
 ## Slide 1
