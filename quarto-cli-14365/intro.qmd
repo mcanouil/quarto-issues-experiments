@@ -7,5 +7,5 @@ See @knuth84 for additional discussion of literate programming.
 ## Literate Programming {#sec-literate}
 
 The concept of literate programming was introduced by @knuth84.
-For a deeper dive, see [the details chapter](details.qmd) and @sec-details.
+For a deeper dive, see [the details chapter](details.qmd)[ and @sec-details]{.content-visible when-profile="online"}.
 A concise overview is available in [the summary](summary.qmd#sec-overview), specifically @sec-overview.

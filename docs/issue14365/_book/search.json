@@ -14,7 +14,7 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "1.1 Literate Programming\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\nThe concept of literate programming was introduced by Knuth (1984). For a deeper dive, see the details chapter and Chapter 2. A concise overview is available in the summary, specifically Section 3.1.",
+    "text": "1.1 Literate Programming\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\nThe concept of literate programming was introduced by Knuth (1984). For a deeper dive, see the details chapterand Chapter 2. A concise overview is available in the summary, specifically Section 3.1.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -34,7 +34,7 @@
     "href": "details.html",
     "title": "2  Details",
     "section": "",
-    "text": "2.1 Extended Discussion\nThis chapter provides additional details only available in the online version.\nSee the introduction for the basics (see Chapter 1) and literate programming for background (see Section 1.1).\nFor answers to common questions, see the FAQ and Appendix B. The resources appendix lists further reading (see Appendix A).",
+    "text": "2.1 Extended Discussion\nThis chapter provides additional details only available in the online version.\nSee the introduction for the basics (see Chapter 1) and literate programming for background (see Section 1.1).\nFor answers to common questions, see the FAQand Appendix B. The resources appendix lists further reading (see Appendix A).",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Details</span>"
     ]

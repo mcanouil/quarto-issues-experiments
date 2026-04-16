@@ -7,5 +7,5 @@ See [the introduction](intro.qmd) for the basics (see @sec-intro) and
 
 ## Extended Discussion {#sec-extended}
 
-For answers to common questions, see [the FAQ](faq.qmd) and @sec-faq.
+For answers to common questions, see [the FAQ](faq.qmd)[ and @sec-faq]{.content-visible when-profile="online"}.
 The [resources appendix](resources.qmd) lists further reading (see @sec-resources).
