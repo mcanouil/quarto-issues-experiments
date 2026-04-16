@@ -1,0 +1,84 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quarto-cli-14365",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\nStart with the introduction (see also 1  Introduction), then move on to the summary. For additional material, see the resources appendix and Appendix A — Resources.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 Literate Programming\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\nThe concept of literate programming was introduced by Knuth (1984). For a deeper dive, see the details chapter and Chapter 2. A concise overview is available in the summary, specifically Section 3.1.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#sec-literate",
+    "href": "intro.html#sec-literate",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "details.html",
+    "href": "details.html",
+    "title": "2  Details",
+    "section": "",
+    "text": "2.1 Extended Discussion\nThis chapter provides additional details only available in the online version.\nSee the introduction for the basics (see Chapter 1) and literate programming for background (see Section 1.1).\nFor answers to common questions, see the FAQ and Appendix B. The resources appendix lists further reading (see Appendix A).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Details</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "3.1 Overview\nIn summary, this book has no content whatsoever.\nThis section provides a brief overview. Refer to the introduction for the full story (Chapter 1) and the references for cited works. See also Section 1.1 for background on literate programming.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Appendix A — Resources",
+    "section": "",
+    "text": "A curated list of resources for further reading.\nSee the introduction for where to start (Chapter 1) and the summary for a quick overview (Section 3.1).",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "Appendix B — Frequently Asked Questions",
+    "section": "",
+    "text": "Common questions and answers, available only in the online version.\nSee the summary for a quick overview (Chapter 3) and the details chapter for extended discussion (Section 2.1). The resources appendix has links to external material (see Appendix A).",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Frequently Asked Questions</span>"
+    ]
+  }
+]

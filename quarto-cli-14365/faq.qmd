@@ -2,6 +2,6 @@
 
 Common questions and answers, available only in the online version.
 
-See [the summary](summary.qmd) for a quick overview and
-[the details chapter](details.qmd#sec-extended) for extended discussion.
-The [resources appendix](resources.qmd) has links to external material.
+See [the summary](summary.qmd) for a quick overview (@sec-summary) and
+[the details chapter](details.qmd#sec-extended) for extended discussion (@sec-extended).
+The [resources appendix](resources.qmd) has links to external material (see @sec-resources).

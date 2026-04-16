@@ -2,5 +2,5 @@
 
 A curated list of resources for further reading.
 
-See [the introduction](intro.qmd) for where to start and
-[the summary](summary.qmd#sec-overview) for a quick overview.
+See [the introduction](intro.qmd) for where to start (@sec-intro) and
+[the summary](summary.qmd#sec-overview) for a quick overview (@sec-overview).

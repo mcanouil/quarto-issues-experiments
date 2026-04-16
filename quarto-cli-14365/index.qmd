@@ -4,5 +4,5 @@ This is a Quarto book.
 
 To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
-Start with [the introduction](intro.qmd), then move on to [the summary](summary.qmd).
-For additional material, see [the resources appendix](resources.qmd).
+Start with [the introduction](intro.qmd) (see also @sec-intro), then move on to [the summary](summary.qmd).
+For additional material, see [the resources appendix](resources.qmd) and @sec-resources.

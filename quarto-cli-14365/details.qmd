@@ -2,10 +2,10 @@
 
 This chapter provides additional details only available in the online version.
 
-See [the introduction](intro.qmd) for the basics and
-[literate programming](intro.qmd#sec-literate) for background.
+See [the introduction](intro.qmd) for the basics (see @sec-intro) and
+[literate programming](intro.qmd#sec-literate) for background (see @sec-literate).
 
 ## Extended Discussion {#sec-extended}
 
-For answers to common questions, see [the FAQ](faq.qmd).
-The [resources appendix](resources.qmd) lists further reading.
+For answers to common questions, see [the FAQ](faq.qmd) and @sec-faq.
+The [resources appendix](resources.qmd) lists further reading (see @sec-resources).
