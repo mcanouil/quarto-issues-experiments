@@ -1,5 +1,7 @@
 # quarto-cli-14365
 
+Live: <https://m.canouil.dev/quarto-issues-experiments/issue14365>
+
 Quarto book project using [project profiles](https://quarto.org/docs/projects/profiles.html) to produce different outputs from the same source.
 
 ## Profiles
