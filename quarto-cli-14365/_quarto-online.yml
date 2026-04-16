@@ -1,0 +1,25 @@
+project:
+  post-render:
+    - cp -r _book ../docs/issue14365
+
+book:
+  sidebar:
+    tools:
+      - icon: file-pdf
+        href: quarto-cli-14365.pdf
+        text: "Download PDF"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - details.qmd
+    - summary.qmd
+    - references.qmd
+  appendices:
+    - resources.qmd
+    - faq.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand

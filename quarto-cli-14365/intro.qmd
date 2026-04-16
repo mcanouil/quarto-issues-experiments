@@ -1,0 +1,11 @@
+# Introduction {#sec-intro}
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+## Literate Programming {#sec-literate}
+
+The concept of literate programming was introduced by @knuth84.
+For a deeper dive, see [the details chapter](details.qmd).
+A concise overview is available in [the summary](summary.qmd#sec-overview).

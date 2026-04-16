@@ -1,0 +1,7 @@
+# Frequently Asked Questions {#sec-faq}
+
+Common questions and answers, available only in the online version.
+
+See [the summary](summary.qmd) for a quick overview and
+[the details chapter](details.qmd#sec-extended) for extended discussion.
+The [resources appendix](resources.qmd) has links to external material.

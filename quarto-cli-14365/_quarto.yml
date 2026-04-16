@@ -1,0 +1,17 @@
+profile:
+  group:
+    - [online, print]
+
+project:
+  type: book
+
+book:
+  title: "quarto-cli-14365"
+  site-url: "https://m.canouil.dev/quarto-issues-experiments/issue14365"
+  author: "Norah Jones"
+  date: "4/16/2026"
+
+bibliography: references.bib
+
+filters:
+  - offpage-crosslinks.lua

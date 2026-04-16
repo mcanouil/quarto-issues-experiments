@@ -1,0 +1,9 @@
+# Summary {#sec-summary}
+
+In summary, this book has no content whatsoever.
+
+## Overview {#sec-overview}
+
+This section provides a brief overview.
+Refer to [the introduction](intro.qmd) for the full story and
+[the references](references.qmd) for cited works.
