@@ -1,5 +1,5 @@
 --- Condition Attributes - Filter
---- @module condition-attributes
+--- @module condition_attributes
 --- @license MIT
 --- @copyright 2026 Mickaël Canouil
 --- @author Mickaël Canouil
@@ -39,7 +39,7 @@ local function process(el)
     return nil
   end
 
-  local kept = pandoc.AttributeList()
+  local kept = {}
   local promoted = {}
 
   for _, kv in ipairs(el.attributes) do
@@ -50,12 +50,12 @@ local function process(el)
         table.insert(promoted, { name, value })
       end
     else
-      kept:insert({ key, value })
+      table.insert(kept, { key, value })
     end
   end
 
   for _, kv in ipairs(promoted) do
-    kept:insert(kv)
+    table.insert(kept, kv)
   end
 
   el.attributes = kept
