@@ -1,0 +1,9 @@
+---
+title: Lesson 2
+---
+
+Before include.
+
+{{< include "/_exercises/exercise1.qmd" >}}
+
+After include.

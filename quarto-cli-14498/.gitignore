@@ -1,0 +1,11 @@
+.quarto/
+/_site/
+/_book/
+/_manuscript/
+*_files/
+*.html
+*.md
+!README.md
+
+/.quarto/
+**/*.quarto_ipynb
