@@ -1,5 +1,5 @@
 --- Strip Mermaid Braces - Filter
---- @module "strip-mermaid-braces"opy 
+--- @module "strip-mermaid-braces"
 --- @license MIT
 --- @copyright 2026 Mickaël Canouil
 --- @author Mickaël Canouil
