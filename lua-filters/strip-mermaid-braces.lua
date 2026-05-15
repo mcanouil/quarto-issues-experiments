@@ -23,7 +23,7 @@ end
 --- @return pandoc.RawBlock|nil a RawBlock with the rewritten fence, or nil
 local function CodeBlock(el)
   if not is_gfm_variant() then return nil end
-  if not el.classes:includes('mermaid') then return nil end
+  if not el.classes:includes('{mermaid}') then return nil end
   return pandoc.RawBlock('markdown', '```mermaid\n' .. el.text .. '\n```')
 end
 
