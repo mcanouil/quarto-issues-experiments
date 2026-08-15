@@ -1,0 +1,17 @@
+---
+title: One author
+subtitle: The role heading is singular here
+author:
+  - name: Ada Lovelace
+    roles:
+      - original author
+    affiliation:
+      - name: Analytical Engine Institute
+        position: Head of Research
+---
+
+With one author the heading reads `Role`.
+With more than one it reads `Roles`.
+Both strings come from `role-title-single` and `role-title-plural` in `_quarto.yml`.
+
+The partial picks between them with Pandoc's `rest` pipe: `$if(by-author/rest)$` is true only when the array has more than one entry.

@@ -1,0 +1,15 @@
+project:
+  type: default
+  output-dir: _site
+
+# Plain metadata, because a custom key under `language:` is discarded in 1.11.
+# After quarto-dev/quarto-cli#14773 these two keys can move under `language:`.
+role-title-single: "Role"
+role-title-plural: "Roles"
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    template-partials:
+      - title-metadata.html

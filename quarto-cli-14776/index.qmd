@@ -1,0 +1,32 @@
+---
+title: Roles and affiliation positions
+subtitle: Read straight from the author metadata Quarto already builds
+date: 2026-08-15
+author:
+  - name: Ada Lovelace
+    roles:
+      - original author
+      - writing: lead
+    affiliation:
+      - name: Analytical Engine Institute
+        position: Head of Research
+        url: https://example.org/aei
+  - name: Luigi Menabrea
+    roles:
+      - translator
+      - formal analysis: supporting
+    affiliation:
+      - name: Turin Academy
+        position: Lecturer
+---
+
+The title block above adds a roles column and an affiliation position.
+No change to Quarto is needed, and no Lua filter is used.
+
+Both come from the author metadata that `authors.lua` already normalises.
+
+- `roles:` becomes `by-author[].roles[]`, with `role` and `degree-of-contribution`.
+- `position:` is not a known affiliation field, so it is kept under `by-author[].affiliations[].metadata.position`.
+
+`formal analysis` is a CRediT term, so Quarto also attaches the vocabulary data to it.
+The partial in this example does not print that data, but it is available.

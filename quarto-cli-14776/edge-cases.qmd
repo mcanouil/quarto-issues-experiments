@@ -1,0 +1,22 @@
+---
+title: Edge cases
+subtitle: Missing roles, missing affiliations, and missing positions
+author:
+  - name: Roles but no affiliation
+    roles:
+      - conceptualization: lead
+      - writing
+  - name: Affiliation but no roles
+    affiliation:
+      - name: Turin Academy
+        position: Lecturer
+  - name: Neither roles nor affiliation
+  - name: Affiliation without a position
+    roles:
+      - editing
+    affiliation:
+      - name: Analytical Engine Institute
+---
+
+Each author here is missing a different piece of metadata.
+The grid keeps its columns, and the empty cells stay empty.

@@ -1,0 +1,24 @@
+---
+title: Roles y cargos de afiliación
+subtitle: Las etiquetas siguen la misma cadena de resolución que las de Quarto
+lang: es
+role-title-single: "Rol"
+role-title-plural: "Roles"
+author:
+  - name: Ada Lovelace
+    roles:
+      - autora original
+      - writing: lead
+    affiliation:
+      - name: Instituto de la Máquina Analítica
+        position: Jefa de Investigación
+---
+
+`lang: es` gives the Spanish strings that Quarto ships, so the author and affiliation headings change on their own.
+This document has one author, so the headings are singular: `Autor/a`, `Rol`, and `Afiliación`.
+
+The role heading is not a Quarto string, so this document supplies it as plain metadata.
+Quarto's own label overrides work the same way: `author-title`, `affiliation-title`, and `published-title`.
+
+An extra key under `language:` would not work here.
+Quarto keeps only the keys it knows, plus `crossref-*-title` and `crossref-*-prefix`.

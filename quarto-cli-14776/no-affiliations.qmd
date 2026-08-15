@@ -1,0 +1,16 @@
+---
+title: No affiliations
+subtitle: The grid drops to two columns
+author:
+  - name: Ada Lovelace
+    roles:
+      - original author
+  - name: Luigi Menabrea
+    roles:
+      - translator
+---
+
+No author here has an affiliation, so `by-affiliation` is empty.
+
+The partial then omits the affiliation heading and its cells, and adds the `no-affiliations` class.
+`styles.css` uses that class to set two columns instead of three.

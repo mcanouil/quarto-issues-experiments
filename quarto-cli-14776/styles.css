@@ -1,0 +1,12 @@
+#title-block-header.quarto-title-block.default .quarto-title-meta-author {
+  grid-template-columns: minmax(max-content, 1fr) 1fr 1fr;
+}
+
+#title-block-header.quarto-title-block.default
+  .quarto-title-meta-author.no-affiliations {
+  grid-template-columns: minmax(max-content, 1fr) 1fr;
+}
+
+.affiliation-position {
+  opacity: 0.8;
+}
