@@ -1,0 +1,9 @@
+---
+title: filter require, unguarded
+format: html
+filters:
+  - _extensions/parity/parity-filter-strict.lua
+---
+
+The filter calls `require("_modules/greet")` with no `pcall`, so the render
+fails and the engine reports the raw error.

@@ -1,0 +1,10 @@
+---
+title: require parity, filter versus shortcode
+format: html
+filters:
+  - parity
+---
+
+The same `require("_modules/greet")` runs on both extension paths.
+
+{{< parity >}}
