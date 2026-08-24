@@ -1,0 +1,6 @@
+---
+title: resolve_path inside a loaded Lua file
+format: html
+---
+
+{{< rp >}}
